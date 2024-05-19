@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json({ limit: "100mb" }));
 app.use(cookieParser());
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://workloop.vercel.app/'],
+    origin: ['http://localhost:5173', 'https://workloop.vercel.app'],
     credentials: true
 }));
 
